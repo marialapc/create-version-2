@@ -22,8 +22,8 @@
 
 .social {
   list-style: none;
-  background-color: var(--black);
   &__element {
+    width: 3rem;
     padding: 0.7rem;
     font-size: 0.9rem;
     color: var(--white);
