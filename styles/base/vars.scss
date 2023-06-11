@@ -1,0 +1,26 @@
+
+:root{
+   --white: rgb(255, 255, 255);
+   --black: rgb(0, 0, 0);
+   --grey: rgb(202, 201, 201);
+   --lightGrey: rgb(240, 235, 235);
+   --orange:rgb(249, 157, 65);
+   --cream:rgb(231, 209, 189);
+   --lightCream: rgb(250, 224, 200);
+   --blue:rgb(211, 236, 238);
+   --fontPrimary: "publicSans";
+   --fontSecondary: "cookie";
+   --maxWidth: 72rem;
+   --gutter: 1rem;
+}
+
+@font-face {
+   font-family: "publicSans";
+   src: url("../../assets/fonts/publicSans.ttf") format("truetype");
+ }
+
+ @font-face {
+   font-family: "cookie";
+   src: url("../../assets/fonts/cookie.ttf") format("truetype");
+ }
+

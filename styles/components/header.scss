@@ -1,0 +1,53 @@
+.header {
+  flex-direction: column;
+  background-color: var(--white);
+
+  &__inner {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: var(--maxWidth);
+    padding-right: 0;
+  }
+
+  &__logo {
+    height: 5rem;
+  }
+
+  &__menu {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 43rem) {
+  .header {
+    &__inner {
+      padding-right: 2rem;
+    }
+    &__container {
+      margin: 0;
+    }
+    &__menu {
+      max-width: 30rem;
+    }
+  }
+}
+
+@media (max-width: 55rem) {
+  .header {
+    &__container {
+      flex: 1 1 100%;
+      margin: 0 auto;
+    }
+    &__menu {
+      margin: 0 auto 1rem;
+    }
+  }
+}
+
+@media (max-width: 43rem) {
+  .header__menu {
+    margin-bottom: 0;
+  }
+}

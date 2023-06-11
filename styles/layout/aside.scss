@@ -1,0 +1,32 @@
+.aside {
+  display: none;
+  flex-direction: column;
+  gap: var(--gutter);
+  padding: 1.5rem;
+  background-color: var(--blue);
+  &__title {
+    color: var(--black);
+    font-family: var(--fontSecondary);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  &__block {
+    width: 12rem;
+    height: 14rem;
+    background-color: var(--white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    &--1 {
+      background-image: url(../../assets/images/mediterranean.jpg);
+    }
+    &--2 {
+      background-image: url(../../assets/images/kettle.jpg);
+    }
+  }
+}
+
+@media (min-width: 43rem) {
+  .aside {
+    display: flex;
+  }
+}
