@@ -1,0 +1,25 @@
+.menu {
+  justify-content: space-around;
+  list-style: none;
+  background-color: var(--cream);
+}
+
+.menu__element {
+  flex: 1 1 auto;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: var(--white);
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.menu__element:hover {
+  background-color: var(--lightCream);
+}
+
+.menu__element a {
+  color: inherit;
+  text-decoration: none;
+}
