@@ -1,20 +1,19 @@
 .menu {
   justify-content: space-around;
   list-style: none;
-  background-color: var(--cream);
 
   &__element {
     flex: 1 1 auto;
     padding: 0.8rem;
     text-align: center;
     font-size: 0.9rem;
-    font-weight: 100;
-    color: var(--white);
+    font-weight: 400;
+    color: var(--black);
     transition: background-color 0.2s ease;
     cursor: pointer;
 
     &:hover {
-      background-color: var(--lightCream);
+      background-color: var(--cream);
     }
 
     a {

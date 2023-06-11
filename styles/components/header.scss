@@ -20,14 +20,16 @@
   }
 }
 
-@media (min-width: 43rem) {
+@media (min-width: $isDesktop) {
   .header {
     &__inner {
       padding-right: 2rem;
     }
+
     &__container {
       margin: 0;
     }
+
     &__menu {
       max-width: 30rem;
     }
@@ -40,13 +42,14 @@
       flex: 1 1 100%;
       margin: 0 auto;
     }
+
     &__menu {
       margin: 0 auto 1rem;
     }
   }
 }
 
-@media (max-width: 43rem) {
+@media (max-width: $isDesktop) {
   .header__menu {
     margin-bottom: 0;
   }

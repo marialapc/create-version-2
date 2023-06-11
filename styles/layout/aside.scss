@@ -4,31 +4,36 @@
   gap: var(--gutter);
   padding: 1.5rem;
   background-color: var(--blue);
+
   &__title {
     color: var(--black);
-    font-family: var(--fontSecondary);
+    font-family: var(--fontSecondary), 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     text-align: center;
-    &--subtitle{
+
+    &--subtitle {
       font-size: 1.2rem;
     }
   }
+
   &__block {
     width: 12rem;
     height: 14rem;
     background-color: var(--white);
     background-size: cover;
     background-repeat: no-repeat;
-    &--1 {
-      background-image: url(../../assets/images/mediterranean.jpg);
+
+    &--first {
+      background-image: url(/public/images/mediterranean.jpg);
     }
-    &--2 {
-      background-image: url(../../assets/images/kettle.jpg);
+
+    &--second {
+      background-image: url(/public/images/kettle.jpg);
     }
   }
 }
 
-@media (min-width: 43rem) {
+@media (min-width: $isDesktop) {
   .aside {
     display: flex;
   }
