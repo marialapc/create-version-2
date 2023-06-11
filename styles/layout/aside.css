@@ -6,10 +6,23 @@
   background-color: var(--blue);
 }
 
+.aside__title{
+  color: var(--black);
+}
 .aside__block {
   width: 12rem;
-  height: 8rem;
+  height: 14rem;
   background-color: var(--white);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.aside__block--1{
+  background-image: url(../../assets/images/mediterranean.jpg);
+}
+
+.aside__block--2{
+  background-image: url(../../assets/images/kettle.jpg);
 }
 
 @media (min-width: 43rem) {

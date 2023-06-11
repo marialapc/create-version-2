@@ -15,13 +15,15 @@
 }
 
 .article {
-  flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
 }
 
 .article__title {
   font-size: 1.2rem;
+}
+.article__image{
+  height: 10rem;
 }
 
 .article__text {

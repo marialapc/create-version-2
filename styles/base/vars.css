@@ -1,3 +1,4 @@
+
 :root{
    --white: rgb(255, 255, 255);
    --black: rgb(0, 0, 0);
@@ -6,9 +7,16 @@
    --orange:rgb(249, 157, 65);
    --cream:rgb(231, 209, 189);
    --lightCream: rgb(250, 224, 200);
-   --blue:rgb(198, 244, 248);
-   --fontPrimary: Arial, Helvetica, sans-serif;
+   --blue:rgb(211, 236, 238);
+   --fontPrimary: "publicSans";
    --maxWidth: 72rem;
    --gutter: 1rem;
 }
+
+@font-face {
+   font-family: "publicSans";
+   src: url("../../assets/fonts/publicSans.ttf") format("truetype");
+ }
+
+ 
 
