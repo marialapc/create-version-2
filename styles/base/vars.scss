@@ -6,7 +6,7 @@
   --cream: rgb(254, 246, 240);
   --blue: rgb(211, 236, 238);
   --fontPrimary: "publicSans";
-  --fontSecondary: "cookie";
+  --fontSecondary: "cookie",
   --maxWidth: 72rem;
   --gutter: 1rem;
 }
@@ -18,7 +18,3 @@ $isDesktop: 43rem;
   src: url("../../assets/fonts/publicSans.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "cookie";
-  src: url("../../assets/fonts/cookie.ttf") format("truetype");
-}
